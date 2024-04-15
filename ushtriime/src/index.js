@@ -6,13 +6,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function MainHeader(){
   return(
-    <h1>React Course</h1>
+    <h1 className = "text-primary">React Course</h1>
   )
 }
+
+const subHeaderStyle={
+  color:"blueviolet",
+  backgroundColor:"lightgray"
+}
+
 function SubHeader(){
-  return(
-    <h1>this will be an exciting course</h1>
-  )
+  return <h1 style={subHeaderStyle}>this will be an exciting course</h1>;
+
 }
 
 function Header(){
@@ -38,9 +43,7 @@ function MainBody(){
 }
 
 function Footer(){
-  return(
-    <p>Happy Coding!</p>
-  )
+  return <p style={{color: "gray",backgroundColor: "black"}}>Happy Coding!</p>
 }
 
 root.render(
