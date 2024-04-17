@@ -48,12 +48,13 @@ function Footer() {
   );
 }
 //root render perdoretper me thirr funksionin
+//nese dojm me htu ni link per foto : headshot = "linku" 
 root.render(
   <div className="container">
     <Header />
     <MainBody />
     <div className="row">Students Enrolled</div>
-    <Students experience={2} name = "Jona Rrahmani"/>
+    <Students experience={2} name = "Jona Rrahmani" /> 
     <Students experience={3} name = "Viola Olloni"/>
     <Students experience={1} name = "Olti Miftari"/>
     <Footer/>
