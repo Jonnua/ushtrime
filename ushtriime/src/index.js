@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import "./CSS/style.css";
 import Header from './Hheader'; //importing the Header from React
 import Students from './Student';
-
+import Footer from "./footer";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -42,11 +42,7 @@ function MainBody() {
     </div>
   );
 }
-function Footer() {
-  return (
-    <p style={{ color: "gray", backgroundColor: "black" }}>Happy Coding!</p>
-  );
-}
+
 //root render perdoretper me thirr funksionin
 //nese dojm me htu ni link per foto : headshot = "linku" 
 root.render(
